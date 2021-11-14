@@ -1,0 +1,93 @@
+---
+name: Avishka &nbsp;
+surname: Perera
+position: "Data Scientist"
+address: "Harrow, London"
+phone: +44 07804542806
+profilepic: avi.png
+www: a-vip.github.io
+email: "aviperera@gmail.com"
+twitter: 
+github: a-vip
+linkedin: avi-perera
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Avishka is a freelance Web Developer and a research enthusiast involved in Digital Distribution & Web Analytics. His areas of expertise include designing and developing websites, data analysis, and research understanding. &nbsp; "
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+Determined self-motivated and trustworthy individual with excellent analytical abilities. I am organized and punctual and able to complete
+tasks quickly and efficiently as well as being flexible and quick to adapt to all kinds of situations. Able to work under pressure
+and I am always willing to develop and learn new skills. Greatly value analytical and different problem-solving skills.
+Above all, I possess the ability to think on my feet, be creative, make connections between different topics and persevere until
+I crack those difficult problems.
+
+
+
+# Key Skills & Attributes
+
+ * Can work independently but has excellent teamwork and communication skills with leadership and teaching experience.
+ * Advanced knowledge of computers with numerous IT skills.
+ * Varying coding ability including Python, R, SQL, HTML and CSS.
+ * Website development and industry knowledge including digital marketing.
+ * Proficient with Databases systems, SQL, querying and data analysis.
+ * Retrieving and evaluating data in spreadsheets and pivot tables.
+ * Creating analysis reports or dashboards using RStudio and Tableau.
+ * Able to solve complex problems and understand logical arguments.
+ * An extraordinary eye for colour, contrast, and ratio.
+ * Mathematical competence in areas of accountancy and IT.
+ * Mathematical modelling for medical applications including clinical trials, statistics and hypothesis testing.
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Informal studies", "2008-2012", "Hatch End High School", "London, England",
+  "BSc Mathematics", "2018-2022", "The Open University", "London, England",
+  "Mathematics for Machine Learning", "2021-2022", "Imperial College London", "London, England",
+  "Google Scholarship Program", "2021-2022","Google/Coursera", "London, England"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Certifications & Licenses
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2021, "Data Analytics", "Awarded from Google",
+  2021, "Project Management", "Awarded from Google",
+  2021, "IT Automation", "Awarded from Google",
+  2020, "Data Science", "Awarded from IBM",
+  2020, "Machine Learning", "Awarded from IBM"
+) %>% 
+  brief_entries(
+    glue::glue("Certificate in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Employment History
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Web Developer", "2021-2022", "Tame Digital", "London, England",
+  "Web Developer", "2021-2022", "Upwork/Fiverr", "London, England",
+  "Conferences & Events", "2019-2020", "Hilton Wembley", "London, England",
+  "VIP Events Staff", "2018-2019", "The Hospitality Company", "London, England",
+  "Data Scientist", "2017-2018", "World News Inc", "London, England",
+  "Teaching Assistant", "2010-2013","Fists Taekwondo Academy", "London, England"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
