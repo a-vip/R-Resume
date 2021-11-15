@@ -11,7 +11,7 @@ twitter:
 github: a-vip
 linkedin: avi-perera
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Avishka is a freelance Web Developer and a research enthusiast involved in Digital Distribution & Web Analytics. His areas of expertise include designing and developing websites, data analysis, and research understanding. &nbsp; "
+aboutme: "Avishka is a freelance Web Developer and a research enthusiast involved in Digital Distribution & Web Analytics. His areas of expertise include designing and developing websites, data analysis, project management, and research understanding. &nbsp; "
 output: vitae::twentyseconds
 ---
 
@@ -30,17 +30,16 @@ I crack those difficult problems.
 
 # Key Skills & Attributes
 
- * Can work independently but has excellent teamwork and communication skills with leadership and teaching experience.
  * Advanced knowledge of computers with numerous IT skills.
  * Varying coding ability including Python, R, SQL, HTML and CSS.
- * Website development and industry knowledge including digital marketing.
- * Proficient with Databases systems, SQL, querying and data analysis.
+ * Website development and industry knowledge in digital marketing.
+ * Knows how to prepare, process, analyze, and share data for action.
  * Retrieving and evaluating data in spreadsheets and pivot tables.
  * Creating analysis reports or dashboards using RStudio and Tableau.
  * Able to solve complex problems and understand logical arguments.
  * An extraordinary eye for colour, contrast, and ratio.
  * Mathematical competence in areas of accountancy and IT.
- * Mathematical modelling for medical applications including clinical trials, statistics and hypothesis testing.
+ * Mathematical modelling for medical applications including clinical trials, statistics, physics, hypothesis testing, and many more.
 
 
 # Education
@@ -49,10 +48,10 @@ I crack those difficult problems.
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "2008-2012", "Hatch End High School", "London, England",
-  "BSc Mathematics", "2018-2022", "The Open University", "London, England",
+  "Google Scholarship Program", "2021-2022","Google/Coursera", "London, England",
   "Mathematics for Machine Learning", "2021-2022", "Imperial College London", "London, England",
-  "Google Scholarship Program", "2021-2022","Google/Coursera", "London, England"
+  "BSc Mathematics", "2018-2022", "The Open University", "London, England",
+  "Informal Studies", "2008-2012", "Hatch End High School", "London, England"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -82,12 +81,22 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "Web Developer", "2021-2022", "Tame Digital", "London, England",
-  "Web Developer", "2021-2022", "Upwork/Fiverr", "London, England",
+  "Web Developer", "2020-2022", "Upwork/Fiverr", "London, England",
   "Conferences & Events", "2019-2020", "Hilton Wembley", "London, England",
-  "VIP Events Staff", "2018-2019", "The Hospitality Company", "London, England",
+  "VIP Events Staff", "2018-2019", "Hospitality Company", "London, England",
   "Data Scientist", "2017-2018", "World News Inc", "London, England",
-  "Teaching Assistant", "2010-2013","Fists Taekwondo Academy", "London, England"
+  "Teaching Assistant", "2010-2013","FISTS Taekwondo", "London, England"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
+# Additional Info & Achievments
+
+ * Competent in tools and platforms including spreadsheets, SQL, Tableau.
+ * Made this resume using R programming & markdown code on RStudio.
+ * Looking to develop analytical skills to achieve a career in data science.
+
+
+
+•References: Available on request
+ 
